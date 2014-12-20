@@ -18,4 +18,5 @@ def update():
             run("git pull origin master")
             # with shell_env(PATH="/home/unionx/.nvm/v0.10.25/bin:$PATH"):
             # run("npm install")
+            run("lein deps")
             run("bower install")
